@@ -1,0 +1,132 @@
+{
+  "artist": "s-don",
+  "role": "Music Producer / DJ",
+  "featured": {
+    "eyebrow": "LATEST RELEASE",
+    "title": "Life is Aventura",
+    "subtitle": "3rd Solo Album · 2026",
+    "image": "assets/release.jpg",
+    "youtube": "",
+    "description": "色彩豊かなサウンドで、新しい冒険へ。"
+  },
+  "news": [
+    {
+      "date": "2026-04-26",
+      "title": "3rd Solo Album「Life is Aventura」リリース",
+      "image": "assets/release.jpg",
+      "url": ""
+    },
+    {
+      "date": "2026-04-23",
+      "title": "「Life is Aventura」トレーラー公開",
+      "image": "assets/video.jpg",
+      "url": ""
+    }
+  ],
+  "listening": [
+    {
+      "label": "Spotify",
+      "icon": "spotify",
+      "url": ""
+    },
+    {
+      "label": "Apple Music",
+      "icon": "apple",
+      "url": ""
+    },
+    {
+      "label": "YouTube Music",
+      "icon": "youtube",
+      "url": ""
+    },
+    {
+      "label": "Amazon Music",
+      "icon": "amazon",
+      "url": ""
+    }
+  ],
+  "shopping": [
+    {
+      "label": "Bandcamp",
+      "icon": "bandcamp",
+      "url": ""
+    },
+    {
+      "label": "BOOTH",
+      "icon": "booth",
+      "url": ""
+    }
+  ],
+  "works": [
+    {
+      "category": "rhythm",
+      "title": "Malicious Mischance",
+      "project": "Arcaea",
+      "credit": "楽曲提供",
+      "year": 2025,
+      "image": "",
+      "url": "",
+      "featured": true,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Trrricksters!!",
+      "project": "CHUNITHM",
+      "credit": "楽曲提供",
+      "year": 2024,
+      "image": "",
+      "url": "",
+      "featured": true,
+      "description": ""
+    },
+    {
+      "category": "game",
+      "title": "永遠の春夢（Remix）",
+      "project": "東方LostWord",
+      "credit": "リミックス",
+      "year": 2025,
+      "image": "",
+      "url": "",
+      "description": "",
+      "featured": false
+    },
+    {
+      "category": "other",
+      "title": "音楽ゲーム譜面制作・ディレクション",
+      "project": "複数タイトル",
+      "credit": "譜面制作／ディレクション",
+      "year": 2026,
+      "description": "担当作品や制作内容をここに追記できます。",
+      "url": "",
+      "featured": false
+    }
+  ],
+  "social": [
+    {
+      "label": "X",
+      "icon": "x",
+      "url": ""
+    },
+    {
+      "label": "Spotify",
+      "icon": "spotify",
+      "url": ""
+    },
+    {
+      "label": "YouTube",
+      "icon": "youtube",
+      "url": ""
+    },
+    {
+      "label": "Bandcamp",
+      "icon": "bandcamp",
+      "url": ""
+    },
+    {
+      "label": "BOOTH",
+      "icon": "booth",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+# repo をあなたの GitHub ユーザー名/公開リポジトリ名に置き換える。
+# base_url はOAuthプロキシを設定後に有効化する。
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_PUBLIC_REPOSITORY
+  branch: main
+  # base_url: https://YOUR-OAUTH-PROXY.workers.dev
+
+media_folder: assets/uploads
+public_folder: assets/uploads
+site_url: https://s-don.com
+locale: ja
+publish: true
+
+collections:
+  - name: site
+    label: サイトのコンテンツ
+    files:
+      - name: content
+        label: トップ・NEWS・WORKS・リンクを編集
+        file: data/site.json
+        fields:
+          - { label: アーティスト名, name: artist, widget: string }
+          - { label: 肩書き, name: role, widget: string }
+          - label: Latest Release
+            name: featured
+            widget: object
+            fields:
+              - { label: 見出し, name: eyebrow, widget: string }
+              - { label: 作品名, name: title, widget: string }
+              - { label: サブタイトル, name: subtitle, widget: string }
+              - { label: ジャケット画像, name: image, widget: image }
+              - { label: YouTube URL, name: youtube, widget: string, required: false }
+              - { label: 説明文, name: description, widget: text, required: false }
+          - label: NEWS（新しいニュースを追加）
+            name: news
+            widget: list
+            summary: '{{fields.date}} — {{fields.title}}'
+            fields:
+              - { label: 日付（YYYY-MM-DD）, name: date, widget: date, format: YYYY-MM-DD }
+              - { label: タイトル, name: title, widget: string }
+              - { label: サムネイル画像, name: image, widget: image }
+              - { label: リンク先URL, name: url, widget: string, required: false }
+          - label: 音楽配信サービス
+            name: listening
+            widget: list
+            summary: '{{fields.label}}'
+            fields:
+              - { label: サービス名, name: label, widget: string }
+              - { label: アイコンID, name: icon, widget: select, options: [spotify, apple, youtube, amazon, bandcamp, booth] }
+              - { label: URL, name: url, widget: string, required: false }
+          - label: 通販サービス
+            name: shopping
+            widget: list
+            summary: '{{fields.label}}'
+            fields:
+              - { label: サービス名, name: label, widget: string }
+              - { label: アイコンID, name: icon, widget: select, options: [bandcamp, booth, amazon] }
+              - { label: URL, name: url, widget: string, required: false }
+          - label: WORKS（制作実績を追加）
+            name: works
+            widget: list
+            summary: '{{fields.year}} — {{fields.title}}'
+            fields:
+              - { label: 種別, name: category, widget: select, options: [{label: 音楽ゲーム, value: rhythm}, {label: ゲーム, value: game}, {label: その他（文章のみ）, value: other}] }
+              - { label: 作品・仕事名, name: title, widget: string }
+              - { label: タイトル・クライアント名, name: project, widget: string }
+              - { label: 担当内容, name: credit, widget: string }
+              - { label: 公開年, name: year, widget: number, value_type: int, min: 1990, max: 2100 }
+              - { label: ジャケット・作品画像（その他実績は省略可）, name: image, widget: image, required: false }
+              - { label: 説明, name: description, widget: text, required: false }
+              - { label: リンク先URL, name: url, widget: string, required: false }
+              - { label: 注目作品, name: featured, widget: boolean, required: false, default: false }
+          - label: SNS・ヘッダーリンク
+            name: social
+            widget: list
+            summary: '{{fields.label}}'
+            fields:
+              - { label: サービス名, name: label, widget: string }
+              - { label: アイコンID, name: icon, widget: select, options: [x, spotify, youtube, bandcamp, booth, apple, amazon] }
+              - { label: URL, name: url, widget: string, required: false }
