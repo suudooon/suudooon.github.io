@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff"><title>s-don | Official Website – </title>
+<style>
+:root{--blue:#1680f8;--blue-dark:#0066da;--pink:#e6a6c7;--ink:#252a39;--muted:#777f90;--hair:#e8eaf0;--pale:#f6f9ff;--page:#fff;--radius:12px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--page);font-family:Inter,-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}a:hover{color:var(--blue)}button{font:inherit} .site-header{height:84px;border-bottom:1px solid var(--hair);background:#fff}.header-inner{max-width:1100px;height:100%;margin:auto;padding:0 36px;display:flex;align-items:center;justify-content:space-between}.brand{display:inline-flex;align-items:center;font-size:32px;color:var(--blue);font-weight:900;letter-spacing:-2.5px}.brand img{display:block;width:118px;height:auto}.brand-identity{display:flex;align-items:center;gap:14px}.brand-caption{font-size:10px;font-weight:800;letter-spacing:1.2px;color:#8e97aa;white-space:nowrap}.brand-social{display:flex;align-items:center;gap:22px}.social-top{display:flex;gap:9px;align-items:center}.social-icon{height:32px;width:32px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #e2eaf5;border-radius:9px;background:#fff;color:#38445f}.social-icon svg{width:17px;height:17px}.social-icon:hover{border-color:var(--blue);color:var(--blue);background:#f5f9ff}.social-icon.notlinked{opacity:.9}.nav{display:flex;align-items:center;gap:36px;font-size:12px;font-weight:800;letter-spacing:1.5px}.nav a:first-child{color:var(--blue)}.nav a:hover{color:var(--blue)}.nav .contact{border:1px solid #cddff8;border-radius:9px;padding:12px 17px}.pink-stripe{height:3px;background:linear-gradient(90deg,#8cc8ef 0%,#8cc8ef 36%,#e2b2d9 56%,#f2bfd1 68%,transparent 100%)}
+.main{max-width:1100px;margin:auto;padding:51px 36px 50px}.intro{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;margin-bottom:44px}.hello{margin:0 0 7px;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:2.3px}.intro h1{font-size:50px;line-height:1.1;letter-spacing:-2px;margin:0 0 7px;font-weight:900}.intro p{margin:0;color:var(--muted);font-size:14px}.intro-right{font-size:12px;color:var(--muted);text-align:right;line-height:1.8}.intro-right span{display:inline-block;width:9px;height:9px;border-radius:50%;background:#eab4d5;margin-left:7px}
+.feature{background:var(--pale);border:1px solid #e9f0fa;border-radius:var(--radius);padding:26px;display:grid;grid-template-columns:1.05fr 1fr;gap:38px;align-items:center}.feature-img{display:block;cursor:pointer;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:9px;box-shadow:0 11px 24px #384b631a}.section-kicker{font-size:11px;color:var(--blue);font-weight:900;letter-spacing:2px;margin:0 0 17px}.feature h2{font-size:33px;letter-spacing:-1px;line-height:1.2;margin:0 0 11px}.feature-sub{font-size:13px;font-weight:700;color:#858c9c;margin:0 0 21px}.feature-description{font-size:13px;color:#5f697a;margin:0 0 26px;line-height:1.8}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--blue);border:1px solid var(--blue);color:white;border-radius:9px;padding:15px 24px;font-size:12px;font-weight:800;letter-spacing:.3px;min-height:48px}.btn:hover{background:var(--blue-dark);color:#fff}.watch-link{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid #cbdcf6;border-radius:8px;color:var(--blue-dark);font-weight:800;font-size:12px;line-height:1.2;background:#fff}.watch-link:hover{background:#e9f3ff}.watch-link.notlinked{color:#8d95a4}.arrow{font-size:16px;line-height:1}.hint{font-size:10px;color:var(--muted);margin:9px 0 0}
+.lower{display:grid;grid-template-columns:1fr 1fr;gap:76px;padding-top:70px}.section-head{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--hair);padding-bottom:15px;margin-bottom:20px}.section-head h2{font-size:20px;letter-spacing:-.4px;margin:0}.section-head small{color:#a9adba;font-size:10px;letter-spacing:1px}.news-list{display:grid;gap:0}.news-item{display:grid;grid-template-columns:98px 1fr;gap:15px;padding:12px 0;border-bottom:1px solid #f0f1f5;align-items:center}.news-thumb{width:98px;height:74px;object-fit:cover;border-radius:9px;background:#eef3f9}.news-body{min-width:0}.news-date{font-size:11px;color:#969bab}.news-title{font-size:13px;line-height:1.65;font-weight:650}.news-title:hover{color:var(--blue)}.links-category{margin-bottom:24px}.links-label{color:var(--muted);font-weight:800;letter-spacing:1.5px;font-size:10px;margin:0 0 11px}.links-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.link-item{min-height:47px;display:flex;align-items:center;justify-content:space-between;gap:6px;padding:13px 16px;border:1px solid #dfe7f3;border-radius:9px;font-size:12px;font-weight:730;background:#fff}.link-item:hover{border-color:var(--blue);background:#f6faff}.link-item .arrow{font-size:14px;color:var(--blue)}.link-left{display:flex;align-items:center;gap:10px;min-width:0}.service-icon{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;color:#1680f8}.service-icon svg{width:21px;height:21px}.service-icon.youtube{color:#f03d39}.service-icon.spotify{color:#1db954}.service-icon.bandcamp{color:#2597ad}.service-icon.booth{color:#ee547d}.service-icon.apple{color:#ec568c}.service-icon.amazon{color:#3e7dd6}
+.works-entry{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:60px;padding:25px 28px;background:linear-gradient(110deg,#eff6ff,#fbf5fb);border-radius:var(--radius);border:1px solid #eaf0f9}.works-entry strong{font-size:19px}.works-entry p{font-size:12px;color:#858c9b;margin:7px 0 0}.works-pill{border:1px solid #c7daf4;background:#fff;padding:12px 19px;border-radius:9px;font-size:11px;font-weight:800;white-space:nowrap}.footer{border-top:1px solid var(--hair);margin-top:76px;padding:25px 0;display:flex;justify-content:space-between;align-items:center}.footer small{color:#9da3ad;font-size:11px}.social{display:flex;gap:23px;color:#68768a;font-size:12px;font-weight:800}.notlinked{cursor:default}
+@media(max-width:700px){.site-header{height:auto}.header-inner{padding:13px 20px 12px;display:flex;flex-direction:column;align-items:stretch;gap:11px}.brand-social{justify-content:space-between;gap:10px}.brand{font-size:27px}.brand img{width:105px}.brand-identity{gap:7px}.brand-caption{font-size:8px;max-width:57px;white-space:normal;line-height:1.3;letter-spacing:.5px}.social-top{gap:5px}.social-icon{width:30px;height:30px;border-radius:8px}.social-icon svg{width:15px;height:15px}.nav{justify-content:flex-start;gap:22px;font-size:10px;letter-spacing:.5px}.nav .contact{display:none}.main{padding:36px 20px 22px}.intro{display:none}.intro h1{font-size:40px}.intro p{font-size:12px}.intro-right{display:none}.feature{display:flex;flex-direction:column;align-items:stretch;gap:23px;padding:15px}.feature-img{aspect-ratio:16/10}.feature-body{padding:0 5px 5px}.section-kicker{margin-bottom:10px}.feature h2{font-size:26px}.feature-sub{margin-bottom:13px}.feature-description{margin-bottom:10px}.feature .feature-body{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:8px;align-items:center}.feature .section-kicker,.feature .feature-description,.feature .hint{grid-column:1/-1}.feature h2,.feature-sub{grid-column:1}.watch-link{grid-column:2;grid-row:2/4;align-self:center;white-space:nowrap;font-size:11px;padding:8px 9px}.feature h2{font-size:24px;margin-bottom:4px}.feature-sub{margin-bottom:0}.feature .hint{margin-top:10px}.btn{width:100%;padding:14px}.lower{display:block;padding-top:45px}.lower section+section{margin-top:45px}.section-head h2{font-size:19px}.news-list{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 15px;scrollbar-width:thin}.news-item{display:block;min-width:196px;width:196px;flex:0 0 196px;scroll-snap-align:start;padding:0;border:1px solid #e7ebf1;border-radius:10px;overflow:hidden;background:#fff}.news-thumb{width:100%;height:114px;border-radius:0;display:block;object-fit:cover}.news-body{padding:11px 12px 13px}.news-date{font-size:10px;margin-bottom:5px}.news-title{font-size:12px;line-height:1.45;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:35px}.links-grid{gap:9px}.link-item{padding:12px 13px;font-size:11px}.works-entry{margin-top:43px;padding:22px 18px}.works-entry strong{font-size:16px}.works-entry p{font-size:11px}.works-pill{padding:12px;font-size:10px}.footer{margin-top:48px}.social{gap:14px}}
+@media (prefers-reduced-motion:no-preference){a,.btn{transition:color .15s,background .15s,border-color .15s}}
+
+/* v4: コンテンツは同じ、端末サイズのみで配置を調整 */
+.nav{gap:9px}.nav a{width:38px;height:38px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #e2eaf5;border-radius:9px;color:#526078}.nav a:first-child{color:var(--blue);background:#f2f7ff}.nav svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.nav a:hover{border-color:var(--blue);background:#f5faff}.brand-social{gap:28px}.header-inner{gap:20px}
+.more-link{font-size:11px;letter-spacing:1px;font-weight:800;color:var(--blue)}.more-link:hover{text-decoration:underline}
+/* アイコンリンクを主体にしたナビ。ヘッダーSNSアイコンはデータから共通生成 */
+@media(max-width:700px){
+.site-header .header-inner{flex-direction:row;align-items:center;gap:10px;padding:13px 16px}
+.brand-social{flex:1;min-width:0;gap:5px;flex-direction:column;align-items:flex-start}
+.brand-identity{width:100%;gap:10px}.brand img{width:105px}.brand-caption{font-size:8px;max-width:none;white-space:nowrap}
+.social-top{gap:5px}.social-icon{height:28px;width:28px;border-radius:7px}.social-icon svg{width:15px;height:15px}
+.nav{gap:5px;align-self:flex-end;padding-bottom:0}.nav a{width:29px;height:29px;border-radius:7px}.nav svg{width:15px;height:15px}
+.main{padding:21px 16px 20px}
+.feature{padding:11px;gap:0;display:block}
+.feature-img{aspect-ratio:16/8.8;width:100%;object-fit:cover;border-radius:8px;box-shadow:none}
+.feature-body{padding:9px 3px 2px!important;display:grid!important;grid-template-columns:minmax(0,1fr) auto;gap:2px 9px;align-items:center}
+.feature .section-kicker{font-size:9px;margin:0 0 2px;grid-column:1/-1;letter-spacing:1.4px}
+.feature h2{font-size:20px;line-height:1.18;margin:0;grid-column:1;grid-row:2}
+.feature-sub{font-size:11px;grid-column:1;grid-row:3;margin:0}
+.watch-link{grid-column:2;grid-row:2/4;font-size:10px;padding:7px 9px;align-self:center}
+.lower{padding-top:28px}.lower section+section{margin-top:26px}
+.section-head{padding-bottom:10px;margin-bottom:12px}.section-head h2{font-size:18px}
+.news-list{display:flex;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;gap:10px;scrollbar-width:thin;padding:2px 0 9px;max-width:100%}
+.news-item{min-width:248px;width:248px;flex:0 0 248px;display:flex;align-items:center;gap:9px;height:89px;padding:6px;border:1px solid #e7ebf1;border-radius:10px;scroll-snap-align:start;overflow:hidden}
+.news-thumb{width:84px;height:75px;object-fit:cover;border-radius:7px;flex:0 0 84px}
+.news-body{padding:0;flex:1}.news-date{font-size:10px;margin:0 0 4px}.news-title{font-size:11px;line-height:1.4;min-height:0;-webkit-line-clamp:3}
+.works-entry{margin-top:25px;padding:16px}.footer{margin-top:32px}
+}
+@media(max-width:375px){.brand-caption{font-size:7px}.social-icon{width:25px;height:25px}.nav a{width:27px;height:27px}.feature h2{font-size:19px}}
+
+/* v5 navigation text restored and mobile-first density fix */
+.nav{display:flex;gap:28px;align-items:center;font-size:12px;letter-spacing:1.15px}
+.nav a{width:auto;height:auto;padding:8px 1px;border:0;border-radius:0;background:transparent;color:#455166}
+.nav a:first-child{background:transparent;color:var(--blue)}
+.nav a:hover{background:transparent;border:0;color:var(--blue)}
+.brand-icon-image,.service-icon .brand-icon-image{width:21px;height:21px;object-fit:contain;display:block}
+.social-icon .brand-icon-image{width:18px;height:18px}
+@media(max-width:700px){
+ .site-header .header-inner{display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:12px 16px 10px}
+ .brand-social{width:100%;display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:10px}
+ .brand-identity{width:auto;gap:8px;flex-shrink:0}
+ .brand img{width:100px}
+ .brand-caption{font-size:8px;line-height:1.25;max-width:68px;white-space:normal}
+ .social-top{gap:4px;justify-content:flex-end;flex-wrap:nowrap}
+ .social-icon{width:29px;height:29px;min-width:29px}
+ .social-icon .brand-icon-image{width:17px;height:17px}
+ .nav{display:flex;width:100%;justify-content:space-around;align-items:center;gap:6px;border-top:1px solid #edf0f5;padding-top:9px;font-size:11px;letter-spacing:1.0px;align-self:stretch}
+ .nav a{height:auto;width:auto;padding:4px 9px;border:0;background:none;white-space:nowrap}
+ .main{width:100%;min-width:0;max-width:100%;padding:18px 15px 20px}
+ .feature{width:100%;min-width:0;display:block;padding:10px}
+ .feature-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+ .feature-body{min-width:0;grid-template-columns:minmax(0,1fr) auto !important}
+ .feature h2{min-width:0;font-size:20px;overflow-wrap:anywhere}
+ .lower{width:100%;min-width:0;display:flex;flex-direction:column;gap:24px;padding-top:26px}
+ .lower section{min-width:0;width:100%}
+ .lower section+section{margin-top:0}
+ .news-list{width:100%;max-width:100%;min-width:0;overflow-x:auto;overflow-y:hidden;display:flex;flex-wrap:nowrap;gap:10px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+ .news-item{flex:0 0 248px;max-width:248px;width:248px}
+ .links-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .link-item{min-width:0;padding:11px 9px;font-size:11px;gap:3px}
+ .link-left{gap:6px;min-width:0}
+ .link-left>span:last-child{min-width:0;overflow-wrap:anywhere}
+ .service-icon,.service-icon .brand-icon-image{height:20px;width:20px}
+ .works-entry{width:100%;min-width:0;gap:10px}
+ .works-entry div{min-width:0}
+ .works-pill{flex:0 0 auto;white-space:nowrap}
+}
+@media(max-width:365px){.social-icon{width:25px;height:25px;min-width:25px}.social-icon .brand-icon-image{width:15px;height:15px}.brand img{width:88px}.brand-caption{font-size:7px}.feature h2{font-size:18px}}
+
+/* v6 — Mobile intentionally composed as a mobile layout, never scaled desktop */
+@media (max-width:700px){
+ .site-header .header-inner{padding:12px 16px 11px;gap:5px}
+ .brand-social{gap:5px;align-items:center}
+ .brand img{width:100px}
+ .brand-caption{font-size:8px;max-width:55px}
+ .social-top{gap:3px}
+ .social-icon{border:none;background:transparent;width:29px;height:32px;min-width:29px;padding:4px}
+ .social-icon .brand-icon-image{width:21px;height:21px}
+ .nav{justify-content:flex-end;gap:15px;padding-top:5px;border-top:0;font-size:11px;letter-spacing:.7px}
+ .nav a{padding:3px 0}
+ .main{padding:15px 15px 20px}
+ .feature{padding:10px}
+ .feature-img{aspect-ratio:16/9;object-fit:cover}
+ .feature-body{padding:10px 3px 4px!important}
+ .feature h2{font-size:21px}
+ .lower{padding-top:24px;gap:24px}
+ .news-list{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;gap:10px;scroll-snap-type:x mandatory;scroll-padding-inline:1px;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:2px 0 8px;touch-action:pan-x pan-y}
+ .news-list::-webkit-scrollbar{display:none}
+ .news-item{display:flex!important;flex:0 0 273px!important;width:273px!important;min-width:273px!important;max-width:273px!important;height:96px!important;padding:6px!important;gap:10px!important;border:1px solid #e7ebf1;border-radius:10px;overflow:hidden;scroll-snap-align:start}
+ .news-thumb{display:block!important;width:82px!important;height:82px!important;flex:0 0 82px!important;aspect-ratio:1/1!important;object-fit:cover!important;border-radius:7px!important}
+ .news-body{padding:0!important;min-width:0;flex:1}
+ .news-title{font-size:11px;line-height:1.35;-webkit-line-clamp:3}
+ .section-head{margin-bottom:11px}
+}
+@media(max-width:360px){.brand img{width:85px}.brand-caption{font-size:7px;max-width:47px}.social-icon{width:25px;min-width:25px}.social-icon .brand-icon-image{width:18px;height:18px}.nav{gap:12px}}
+</style>
+<script src="content.js" defer></script>
+<script defer>
+window.addEventListener('sdon:content-ready',()=>{
+ const c=window.SDON_CONTENT;
+ const id=s=>document.getElementById(s);
+ const esc=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+ id('featuredTitle').textContent=c.featured.title;id('featuredSub').textContent=c.featured.subtitle;id('featuredImage').src=c.featured.image;
+ const action=id('featuredAction'), art=id('featuredArtwork');if(c.featured.youtube){for(const a of [action,art]){a.href=c.featured.youtube;a.target='_blank';a.rel='noopener noreferrer';}}else{for(const a of [action,art]){a.removeAttribute('href');a.classList.add('notlinked');}}
+ id('news').innerHTML=c.news.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0,6).map(n=>`<div class="news-item"><img class="news-thumb" src="${esc(n.image||'assets/release.jpg')}" alt=""><div class="news-body"><div class="news-date">${esc(n.date)}</div><div class="news-title">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">${esc(n.title)}</a>`:esc(n.title)}</div></div></div>`).join('');
+ // 既存の自作SVGは廃止し、Web配布のブランド素材を参照する。
+ // Simple Icons (community SVG references); BOOTHは公式サイトのfaviconを参照。
+ const brandAssets={
+  spotify:'https://cdn.simpleicons.org/spotify/1DB954',
+  youtube:'https://cdn.simpleicons.org/youtube/FF0033',
+  x:'https://cdn.simpleicons.org/x/111111',
+  bandcamp:'https://cdn.simpleicons.org/bandcamp/1DA0C3',
+  booth:'https://booth.pm/favicon.ico',
+  apple:'https://cdn.simpleicons.org/applemusic/FA243C',
+  amazon:'https://d5fx445wy2wpk.cloudfront.net/static/logo.svg'
+ };
+ const icon=(n)=>`<img class="brand-icon-image" src="${brandAssets[n.icon]||''}" alt="" loading="lazy" decoding="async">`;
+ const headerIcons=['x','spotify','youtube','bandcamp','booth'];
+ 
+ const links=(items)=>items.map(n=>`<a class="link-item ${n.url?'':'notlinked'}" ${n.url?`href="${esc(n.url)}" target="_blank" rel="noopener noreferrer"`:''}><span class="link-left"><span class="service-icon ${esc(n.icon)}">${icon(n)}</span><span>${esc(n.label)}</span></span></a>`).join('');
+ id('listenLinks').innerHTML=links(c.listening);id('buyLinks').innerHTML=links(c.shopping);
+ id('social').innerHTML=c.social.map(n=>n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">${esc(n.label)}</a>`:`<span>${esc(n.label)}</span>`).join('');
+});
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared-design.css">
+</head>
+<body>
+<div id="shared-header"></div>
+<main class="main">
+<section class="feature" aria-labelledby="featuredTitle"><a id="featuredArtwork" aria-label="YouTubeで最新リリースを見る"><img id="featuredImage" class="feature-img" src="assets/release.jpg" alt="最新アルバムのアートワーク（現サイトのスクリーンショットを一時的に使用）"></a><div class="feature-body"><p class="section-kicker">LATEST RELEASE</p><h2 id="featuredTitle">Life is Aventura</h2><p id="featuredSub" class="feature-sub">3rd Solo Album · 2026</p><a class="watch-link" id="featuredAction">▶ Watch</a></div></section>
+<div class="lower"><section aria-labelledby="newsTitle"><div class="section-head"><h2 id="newsTitle">Latest News</h2><button type="button" class="more-link" id="newsMore" aria-haspopup="dialog">MORE</button></div><div id="news" class="news-list"></div></section><section aria-labelledby="linksTitle"><div class="section-head"><h2 id="linksTitle">Listen & Buy</h2><small>LINKS</small></div><div class="links-category"><p class="links-label">STREAMING</p><div id="listenLinks" class="links-grid"></div></div><div class="links-category"><p class="links-label">STORE</p><div id="buyLinks" class="links-grid"></div></div></section></div>
+<section class="works-entry" id="works"><div><strong>Selected Works</strong><p>Rhythm Games · Video Games · Other Projects</p></div><a class="works-pill" href="works.html">Explore Works</a></section>
+<footer class="footer"><small>© 2026 s-don</small><div class="social" id="social"></div></footer>
+</main><dialog class="news-dialog" id="newsDialog" aria-labelledby="newsDialogTitle"><div class="news-dialog-head"><h2 id="newsDialogTitle">Latest News</h2><button class="news-close" id="newsClose" type="button" aria-label="閉じる">×</button></div><div id="newsDialogList" class="news-dialog-list"></div></dialog><script src="news-overlay.js"></script><script src="site-header.js"></script></body></html>
