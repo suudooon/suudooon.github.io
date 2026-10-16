@@ -1,3 +1,1 @@
-このZIPを展開して site-header.js のみをGitHubリポジトリ最上位にアップロードしてください。HOME/WORKS/ABOUT/CONTACT/NEWSで共通利用します。
-反映後はブラウザでCtrl+Shift+Rを押してください。
-既存の共有ヘッダー用CSSはページ側から干渉できないShadow DOM方式です。
+v16: 全ページの共通ヘッダー位置補正です。ZIPを解凍し、shared-design.cssのみリポジトリ最上位で置き換えてください。HOMEのindex.htmlやadmin/は変更しません。PCページ間の縦スクロールバーによる左右のズレと、ABOUT/CONTACT等のbody標準余白を統一します。反映後は Ctrl+Shift+R で更新してください。
