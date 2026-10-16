@@ -82,3 +82,15 @@ h1,h2,h3,.section-head h2,.work-title{font-family:var(--ui-font);letter-spacing:
     padding: 12px 16px 11px !important;
   }
 }
+
+/* VIDEO: URL controlled from CMS, 16:9 both devices */
+.featured-video{max-width:1100px;margin:26px auto 0;padding:0 36px;box-sizing:border-box}
+.featured-video-inner{max-width:780px;margin:auto;aspect-ratio:16/9;position:relative;border-radius:12px;overflow:hidden;background:#10151f}
+.featured-video-inner iframe,.video-poster,.video-poster img{display:block;width:100%;height:100%;border:0}
+.video-poster{cursor:pointer;position:relative;padding:0;background:#10151f}.video-poster img{object-fit:cover}.video-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#e43f52;color:#fff;border-radius:13px;padding:13px 20px;font-size:24px;box-shadow:0 8px 22px #1118}.video-poster:focus-visible{outline:3px solid #1680f8;outline-offset:-3px}
+@media(max-width:700px){.featured-video{padding:0 15px;margin-top:16px}.featured-video-inner{border-radius:9px}}
+/* Amazon branding: recognizable wordmark alongside service label, not an unapproved smile-only mark */
+.service-icon.amazon{background:transparent;width:28px;height:25px;padding:0}.service-icon.amazon img{width:27px!important;height:24px!important;object-fit:contain}
+/* ABOUT */
+.about-main{max-width:1100px;margin:0 auto;padding:50px 36px 95px}.about-eyebrow{color:#1680f8;letter-spacing:.18em;font-size:11px;font-weight:800}.about-main h1{font-size:clamp(32px,4vw,46px);letter-spacing:-.045em;margin:8px 0 28px}.about-intro{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start}.about-avatar{width:220px;aspect-ratio:1;object-fit:cover;border-radius:14px;background:#f4f6fb;border:1px solid #e8eaf0}.about-text{font-size:15px;line-height:2;color:#454d5c}.about-role{font-weight:800;color:#1680f8;font-size:12px;letter-spacing:.075em}.about-section{margin-top:56px;border-top:1px solid #e8eaf0;padding-top:25px}.about-section h2{font-size:20px}.about-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.about-fact{padding:20px;border:1px solid #e8eaf0;border-radius:10px}.about-fact strong{font-size:19px;color:#252a39;display:block}.about-fact span{font-size:12px;color:#7b8493}.about-email{color:#1680f8;overflow-wrap:anywhere}.about-note{font-size:13px;line-height:1.8;color:#7b8493}
+@media(max-width:700px){.about-main{padding:27px 16px 62px}.about-intro{grid-template-columns:112px minmax(0,1fr);gap:16px}.about-avatar{width:112px}.about-text{font-size:13px;line-height:1.8}.about-facts{grid-template-columns:1fr}.about-section{margin-top:38px}}

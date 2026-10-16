@@ -2,13 +2,13 @@
 # base_url はOAuthプロキシを設定後に有効化する。
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/YOUR_PUBLIC_REPOSITORY
+  repo: suudooon/suudooon.github.io
   branch: main
   # base_url: https://YOUR-OAUTH-PROXY.workers.dev
 
 media_folder: assets/uploads
 public_folder: assets/uploads
-site_url: https://s-don.com
+site_url: https://suudooon.github.io
 locale: ja
 publish: true
 
@@ -30,8 +30,18 @@ collections:
               - { label: 作品名, name: title, widget: string }
               - { label: サブタイトル, name: subtitle, widget: string }
               - { label: ジャケット画像, name: image, widget: image }
-              - { label: YouTube URL, name: youtube, widget: string, required: false }
+              - { label: YouTube URL（自動埋め込み・通常URLもShortsも対応）, name: youtube, widget: string, required: false }
               - { label: 説明文, name: description, widget: text, required: false }
+          - label: ABOUT（プロフィール）
+            name: about
+            widget: object
+            fields:
+              - { label: プロフィール画像, name: photo, widget: image, required: false }
+              - { label: 肩書き, name: headline, widget: string }
+              - { label: 自己紹介（日本語）, name: bio, widget: text }
+              - { label: 自己紹介（英語）, name: bio_en, widget: text, required: false }
+              - { label: メールアドレス（公開用）, name: email, widget: string, required: false }
+              - { label: お問い合わせ案内, name: contact_note, widget: text, required: false }
           - label: NEWS（新しいニュースを追加）
             name: news
             widget: list

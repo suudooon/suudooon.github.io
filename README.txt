@@ -1,1 +1,1 @@
-既存リポジトリの最上位にある shared-design.css のみ上書きしてください。HOME/WORKS/ABOUT/NEWSで使うヘッダーの位置とグラデーション線を共通化します。
+ここに作品画像を置き、content.js の image に assets/works/ファイル名.webp などを指定します。

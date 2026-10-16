@@ -128,5 +128,13 @@
       "icon": "booth",
       "url": ""
     }
-  ]
+  ],
+  "about": {
+    "photo": "assets/profile-placeholder.svg",
+    "headline": "Music Producer / DJ / Rhythm Game Chart Designer",
+    "bio": "s-donは、音楽ゲームへの楽曲提供を中心に活動する日本の音楽プロデューサー／DJ。楽曲制作のほか、さまざまな音楽ゲームで譜面制作やディレクションも手掛けています。",
+    "bio_en": "s-don is a Japan-based music producer and DJ, creating original music and rhythm game content.",
+    "email": "",
+    "contact_note": "楽曲制作、リミックス、DJ出演などのご相談は、連絡先をご利用ください。"
+  }
 }
