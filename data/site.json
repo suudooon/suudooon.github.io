@@ -27,22 +27,22 @@
     {
       "label": "Spotify",
       "icon": "spotify",
-      "url": ""
+      "url": "https://open.spotify.com/artist/04RZKj5Uv3F6vuuhcEQ1hM"
     },
     {
       "label": "Apple Music",
       "icon": "apple",
-      "url": ""
+      "url": "https://music.apple.com/jp/artist/s-don/1492223384"
     },
     {
       "label": "YouTube Music",
       "icon": "youtube",
-      "url": ""
+      "url": "https://music.youtube.com/@s-don"
     },
     {
       "label": "Amazon Music",
       "icon": "amazon",
-      "url": ""
+      "url": "https://music.amazon.com/artists/B00RBBCY4G/s-don"
     }
   ],
   "shopping": [
@@ -111,12 +111,12 @@
     {
       "label": "Spotify",
       "icon": "spotify",
-      "url": ""
+      "url": "https://open.spotify.com/artist/04RZKj5Uv3F6vuuhcEQ1hM"
     },
     {
       "label": "YouTube",
       "icon": "youtube",
-      "url": ""
+      "url": "https://www.youtube.com/@s-don"
     },
     {
       "label": "Bandcamp",
