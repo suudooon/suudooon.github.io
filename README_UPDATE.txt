@@ -1,0 +1,1 @@
+ZIPを展開後、階層を保って配置してください。data/site.json は既存のNEWS、WORKS、リンク設定を含みます。GitHub上でコンテンツを更新済みの場合、そのまま上書きせず about 項目だけ統合してください。HOMEのindex.htmlとadmin/フォルダは含みません。

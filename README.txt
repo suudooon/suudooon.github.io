@@ -1,1 +1,1 @@
-ここに作品画像を置き、content.js の image に assets/works/ファイル名.webp などを指定します。
+ZIPを解凍し、index.html と shared-design.css はGitHubリポジトリの最上位に、assets/amazon-smile.png は assets 内に配置してください。既存の独自更新がある場合は差分を統合してください。admin/index.html は含みません。

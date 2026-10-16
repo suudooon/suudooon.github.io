@@ -94,3 +94,20 @@ h1,h2,h3,.section-head h2,.work-title{font-family:var(--ui-font);letter-spacing:
 /* ABOUT */
 .about-main{max-width:1100px;margin:0 auto;padding:50px 36px 95px}.about-eyebrow{color:#1680f8;letter-spacing:.18em;font-size:11px;font-weight:800}.about-main h1{font-size:clamp(32px,4vw,46px);letter-spacing:-.045em;margin:8px 0 28px}.about-intro{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start}.about-avatar{width:220px;aspect-ratio:1;object-fit:cover;border-radius:14px;background:#f4f6fb;border:1px solid #e8eaf0}.about-text{font-size:15px;line-height:2;color:#454d5c}.about-role{font-weight:800;color:#1680f8;font-size:12px;letter-spacing:.075em}.about-section{margin-top:56px;border-top:1px solid #e8eaf0;padding-top:25px}.about-section h2{font-size:20px}.about-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.about-fact{padding:20px;border:1px solid #e8eaf0;border-radius:10px}.about-fact strong{font-size:19px;color:#252a39;display:block}.about-fact span{font-size:12px;color:#7b8493}.about-email{color:#1680f8;overflow-wrap:anywhere}.about-note{font-size:13px;line-height:1.8;color:#7b8493}
 @media(max-width:700px){.about-main{padding:27px 16px 62px}.about-intro{grid-template-columns:112px minmax(0,1fr);gap:16px}.about-avatar{width:112px}.about-text{font-size:13px;line-height:1.8}.about-facts{grid-template-columns:1fr}.about-section{margin-top:38px}}
+
+/* V10 global navigation alignment, consistent across pages */
+#shared-header .site-header .header-inner{max-width:1100px!important;margin-inline:auto!important}
+#shared-header nav.nav a, #shared-header nav.nav a:first-child {
+ text-decoration:none!important;border:0!important;border-bottom:0!important;box-shadow:none!important;outline-offset:3px;background:transparent!important;color:#455166!important;
+}
+#shared-header nav.nav a[aria-current="page"],#shared-header nav.nav a[aria-current="page"]:first-child{color:#1680f8!important}
+#shared-header nav.nav a:hover{color:#1680f8!important}
+#shared-header .pink-stripe{background:linear-gradient(90deg,#8cc8ef 0%,#8cc8ef 36%,#e2b2d9 56%,#f2bfd1 68%,transparent 100%)!important}
+@media(max-width:700px){#shared-header nav.nav{gap:14px!important;font-size:10px!important;flex-wrap:wrap;justify-content:flex-end!important}}
+/* About biography: preserve line breaks */
+.about-text{white-space:pre-line;line-height:2.05}
+.about-avatar{object-fit:contain;background:#fff}
+
+/* Amazon Music: user-supplied icon */
+.service-icon.amazon{background:transparent!important; width:28px!important;height:28px!important;padding:0!important}
+.service-icon.amazon img{width:28px!important;height:28px!important;object-fit:contain!important;border-radius:3px}
