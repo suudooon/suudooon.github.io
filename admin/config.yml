@@ -72,7 +72,7 @@ collections:
             widget: list
             summary: '{{fields.year}} — {{fields.title}}'
             fields:
-              - { label: 種別, name: category, widget: select, options: [{label: 音楽ゲーム, value: rhythm}, {label: ゲーム, value: game}, {label: その他（文章のみ）, value: other}] }
+              - { label: 種別, name: category, widget: select, options: [{label: 音楽ゲーム, value: rhythm}, {label: ゲーム, value: game}, { label: 同人作品, value: doujin }, {label: その他（文章のみ）, value: other}] }
               - { label: 作品・仕事名, name: title, widget: string }
               - { label: タイトル・クライアント名, name: project, widget: string }
               - { label: 担当内容, name: credit, widget: string }
