@@ -49,12 +49,12 @@
     {
       "label": "Bandcamp",
       "icon": "bandcamp",
-      "url": ""
+      "url": "https://s-don.bandcamp.com/"
     },
     {
       "label": "BOOTH",
       "icon": "booth",
-      "url": ""
+      "url": "https://s-don.booth.pm/"
     }
   ],
   "works": [
@@ -106,7 +106,7 @@
     {
       "label": "X",
       "icon": "x",
-      "url": ""
+      "url": "https://x.com/udonfor"
     },
     {
       "label": "Spotify",
@@ -121,12 +121,12 @@
     {
       "label": "Bandcamp",
       "icon": "bandcamp",
-      "url": ""
+      "url": "https://s-don.bandcamp.com/"
     },
     {
       "label": "BOOTH",
       "icon": "booth",
-      "url": ""
+      "url": "https://s-don.booth.pm/"
     }
   ],
   "about": {

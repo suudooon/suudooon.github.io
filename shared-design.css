@@ -108,6 +108,22 @@ h1,h2,h3,.section-head h2,.work-title{font-family:var(--ui-font);letter-spacing:
 .about-text{white-space:pre-line;line-height:2.05}
 .about-avatar{object-fit:contain;background:#fff}
 
-/* Amazon Music: user-supplied icon */
-.service-icon.amazon{background:transparent!important; width:28px!important;height:28px!important;padding:0!important}
-.service-icon.amazon img{width:28px!important;height:28px!important;object-fit:contain!important;border-radius:3px}
+/* v11: force the exact same header geometry and rainbow separator on every page */
+#shared-header {display:block;width:100%;}
+#shared-header .site-header{height:auto!important;min-height:84px!important;border:0!important;margin:0!important;padding:0!important;background:#fff!important;}
+#shared-header .site-header .header-inner{width:100%!important;max-width:1100px!important;min-height:84px!important;height:auto!important;box-sizing:border-box!important;margin:0 auto!important;padding:13px 36px!important;display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important;justify-content:space-between!important;gap:22px!important;}
+#shared-header .brand-social{display:flex!important;flex:1 1 auto!important;align-items:center!important;gap:22px!important;min-width:0!important;}
+#shared-header .brand-identity{display:flex!important;align-items:center!important;gap:14px!important;}
+#shared-header .social-top{display:flex!important;align-items:center!important;gap:9px!important;}
+#shared-header .nav{display:flex!important;flex:0 0 auto!important;align-items:center!important;justify-content:flex-end!important;gap:27px!important;margin:0!important;padding:0!important;width:auto!important;border:0!important;}
+#shared-header .nav a{display:inline-block!important;width:auto!important;height:auto!important;padding:7px 0!important;border:0!important;background:transparent!important;text-decoration:none!important;box-shadow:none!important;color:#455166!important;white-space:nowrap;}
+#shared-header .nav a[aria-current=page]{color:#1680f8!important;}
+#shared-header .pink-stripe{display:block!important;width:100%!important;height:3px!important;margin:0!important;border:0!important;background:linear-gradient(90deg,#78c6e8 0%,#c5d4eb 38%,#e6a6c7 75%,#ffbecb 100%)!important;}
+#aboutBio{white-space:pre-wrap;}
+@media(max-width:700px){
+ #shared-header .site-header .header-inner{min-height:0!important;padding:12px 16px 11px!important;flex-direction:column!important;align-items:stretch!important;gap:8px!important;}
+ #shared-header .brand-social{width:100%!important;justify-content:space-between!important;gap:8px!important;}
+ #shared-header .social-top{gap:3px!important;}
+ #shared-header .nav{align-self:flex-end!important;gap:17px!important;}
+ #shared-header .nav a{padding:3px 0!important;}
+}
