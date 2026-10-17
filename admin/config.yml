@@ -20,63 +20,69 @@ collections:
         label: トップ・NEWS・WORKS・リンクを編集
         file: data/site.json
         fields:
-          - { label: アーティスト名, name: artist, widget: string }
-          - { label: 肩書き, name: role, widget: string }
+          - { label: アーティスト名, name: artist, widget: string, required: false }
+          - { label: 肩書き, name: role, widget: string, required: false }
           - label: Latest Release
             name: featured
             widget: object
+            required: false
             fields:
-              - { label: 見出し, name: eyebrow, widget: string }
-              - { label: 作品名, name: title, widget: string }
-              - { label: サブタイトル, name: subtitle, widget: string }
-              - { label: ジャケット画像, name: image, widget: image }
+              - { label: 見出し, name: eyebrow, widget: string, required: false }
+              - { label: 作品名, name: title, widget: string, required: false }
+              - { label: サブタイトル, name: subtitle, widget: string, required: false }
+              - { label: ジャケット画像, name: image, widget: image, required: false }
               - { label: YouTube URL（自動埋め込み・通常URLもShortsも対応）, name: youtube, widget: string, required: false }
               - { label: 説明文, name: description, widget: text, required: false }
           - label: ABOUT（プロフィール）
             name: about
             widget: object
+            required: false
             fields:
               - { label: プロフィール画像, name: photo, widget: image, required: false }
-              - { label: 肩書き, name: headline, widget: string }
-              - { label: 自己紹介（日本語）, name: bio, widget: text }
+              - { label: 肩書き, name: headline, widget: string, required: false }
+              - { label: 自己紹介（日本語）, name: bio, widget: text, required: false }
               - { label: 自己紹介（英語）, name: bio_en, widget: text, required: false }
               - { label: メールアドレス（公開用）, name: email, widget: string, required: false }
               - { label: お問い合わせ案内, name: contact_note, widget: text, required: false }
           - label: NEWS（新しいニュースを追加）
             name: news
             widget: list
+            required: false
             summary: '{{fields.date}} — {{fields.title}}'
             fields:
-              - { label: 日付（YYYY-MM-DD）, name: date, widget: datetime, type: date, format: YYYY-MM-DD }
-              - { label: タイトル, name: title, widget: string }
-              - { label: サムネイル画像, name: image, widget: image }
+              - { label: 日付（YYYY-MM-DD）, name: date, widget: datetime, type: date, format: YYYY-MM-DD, required: false }
+              - { label: タイトル, name: title, widget: string, required: false }
+              - { label: サムネイル画像, name: image, widget: image, required: false }
               - { label: リンク先URL, name: url, widget: string, required: false }
           - label: 音楽配信サービス
             name: listening
             widget: list
+            required: false
             summary: '{{fields.label}}'
             fields:
-              - { label: サービス名, name: label, widget: string }
-              - { label: アイコンID, name: icon, widget: select, options: [spotify, apple, youtube, amazon, bandcamp, booth] }
+              - { label: サービス名, name: label, widget: string, required: false }
+              - { label: アイコンID, name: icon, widget: select, options: [spotify, apple, youtube, amazon, bandcamp, booth], required: false }
               - { label: URL, name: url, widget: string, required: false }
           - label: 通販サービス
             name: shopping
             widget: list
+            required: false
             summary: '{{fields.label}}'
             fields:
-              - { label: サービス名, name: label, widget: string }
-              - { label: アイコンID, name: icon, widget: select, options: [bandcamp, booth, amazon] }
+              - { label: サービス名, name: label, widget: string, required: false }
+              - { label: アイコンID, name: icon, widget: select, options: [bandcamp, booth, amazon], required: false }
               - { label: URL, name: url, widget: string, required: false }
           - label: WORKS（制作実績を追加）
             name: works
             widget: list
+            required: false
             summary: '{{fields.year}} — {{fields.title}}'
             fields:
-              - { label: 種別, name: category, widget: select, options: [{label: 音楽ゲーム, value: rhythm}, {label: ゲーム, value: game}, { label: 同人作品, value: doujin }, {label: その他（文章のみ）, value: other}] }
-              - { label: 作品・仕事名, name: title, widget: string }
-              - { label: タイトル・クライアント名, name: project, widget: string }
-              - { label: 担当内容, name: credit, widget: string }
-              - { label: 公開年, name: year, widget: number, value_type: int, min: 1990, max: 2100 }
+              - { label: 種別, name: category, widget: select, options: [{label: マイアルバム, value: album}, {label: 音楽ゲーム, value: rhythm}, {label: ゲーム, value: game}, {label: 同人作品, value: doujin}, {label: その他（文章のみ）, value: other}], required: false }
+              - { label: 作品・仕事名, name: title, widget: string, required: false }
+              - { label: タイトル・クライアント名, name: project, widget: string, required: false }
+              - { label: 担当内容, name: credit, widget: string, required: false }
+              - { label: 公開年, name: year, widget: number, value_type: int, min: 1990, max: 2100, required: false }
               - { label: ジャケット・作品画像（その他実績は省略可）, name: image, widget: image, required: false }
               - { label: 説明, name: description, widget: text, required: false }
               - { label: リンク先URL, name: url, widget: string, required: false }
@@ -84,8 +90,9 @@ collections:
           - label: SNS・ヘッダーリンク
             name: social
             widget: list
+            required: false
             summary: '{{fields.label}}'
             fields:
-              - { label: サービス名, name: label, widget: string }
-              - { label: アイコンID, name: icon, widget: select, options: [x, spotify, youtube, bandcamp, booth, apple, amazon] }
+              - { label: サービス名, name: label, widget: string, required: false }
+              - { label: アイコンID, name: icon, widget: select, options: [x, spotify, youtube, bandcamp, booth, apple, amazon], required: false }
               - { label: URL, name: url, widget: string, required: false }
