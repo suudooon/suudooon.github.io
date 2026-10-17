@@ -60,24 +60,694 @@
   "works": [
     {
       "category": "rhythm",
+      "title": "arcaea",
+      "project": "Arcaea",
+      "credit": "",
+      "image": "assets/works/arcaea.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "album",
+      "title": "Awesomesauce",
+      "project": "s-don ソロ作品",
+      "credit": "1st Album",
+      "image": "assets/works/awesomesauce.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "banbards3",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/banbards3.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "blacksphere",
+      "project": "KONAMI SOUND VOLTEX",
+      "credit": "楽曲制作",
+      "image": "assets/works/blacksphere.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "blazingenergybooster",
+      "project": "",
+      "credit": "",
+      "image": "assets/works/blazingenergybooster.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "bm9820th",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/bm9820th.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "booooom",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/booooom.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Booouncing!!",
+      "project": "Muse Dash",
+      "credit": "楽曲制作（with 翡乃イスカ）",
+      "image": "assets/works/booouncing-jacket-2160.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Bounce The Tech",
+      "project": "Dynamix",
+      "credit": "楽曲制作（with Sound Piercer）",
+      "image": "assets/works/bouncethetech.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "burnbeast",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/burnbeast.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "colorfulmagicwonderland",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/colorfulmagicwonderland.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "dreamchasers",
+      "project": "ANDAMIRO Chrono Circle",
+      "credit": "楽曲制作",
+      "image": "assets/works/dreamchasers.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "DTMN G",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/dtmn-g.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "energizingflame",
+      "project": "",
+      "credit": "",
+      "image": "assets/works/energizingflame.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "evolution",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/evolution.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "excessnrg2",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/excessnrg2.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "excessnrg3",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/excessnrg3.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "exteeend",
+      "project": "東方ダンマクカグラ ファンタジア・ロスト",
+      "credit": "楽曲制作（with 翡乃イスカ）",
+      "image": "assets/works/exteeend.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "gamegame",
+      "project": "Rayark VOEZ",
+      "credit": "楽曲制作",
+      "image": "assets/works/gamegame.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "glooorious",
+      "project": "osu!mania 7K World Cup 2023",
+      "credit": "楽曲制作（with 翡乃イスカ）",
+      "image": "assets/works/glooorious.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "Gold Disc",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/gold-disc.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "Good Life",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/goodlife.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "game",
+      "title": "メイド in ナイトメア",
+      "project": "グリム・ガーディアンズ サーヴァント・オブ・ザ・ダーク",
+      "credit": "主題歌「メイド in ナイトメア」編曲",
+      "image": "assets/works/grimgardians.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "growlexploder",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/growlexploder.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "game",
+      "title": "蒼き雷霆 ガンヴォルト 鎖環",
+      "project": "蒼き雷霆 ガンヴォルト 鎖環",
+      "credit": "ゲーム内歌唱曲7曲 編曲",
+      "image": "assets/works/gunvolt3.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HDM EDM",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hdm-edm.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "house",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/house.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE Vol01",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-vol01.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE ep01",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-ep01.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE ep02",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-ep02.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE ep03",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-ep03.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE vol2",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-vol2.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE vol3",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-vol3.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE vol4",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-vol4.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE vol5",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-vol5.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "HYVE vol6",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/hyve-vol6.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "komuniko",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/komuniko.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "lostwizz",
+      "project": "SEGA オンゲキR.E.D",
+      "credit": "楽曲制作",
+      "image": "assets/works/lostwizz.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
       "title": "Malicious Mischance",
       "project": "Arcaea",
-      "credit": "楽曲提供",
-      "year": 2025,
-      "image": "",
+      "credit": "楽曲制作",
+      "image": "assets/works/maliciousmischance.webp",
       "url": "",
       "featured": true,
+      "description": "",
+      "year": 2025
+    },
+    {
+      "category": "rhythm",
+      "title": "mechanizeddaydream",
+      "project": "Capcom CROSSxBEATS",
+      "credit": "楽曲制作",
+      "image": "assets/works/mechanizeddaydream.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Melty Summer",
+      "project": "Lanota",
+      "credit": "楽曲制作（with 梅干茶漬け）",
+      "image": "assets/works/melty.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "meteorlights",
+      "project": "Rayark VOEZ",
+      "credit": "楽曲制作",
+      "image": "assets/works/meteorlights.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "mooving",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/mooving.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "mozecon3",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/mozecon3.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "mylittlesecret",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/mylittlesecret.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "オンゲキ",
+      "project": "SEGA オンゲキ",
+      "credit": "",
+      "image": "assets/works/ongeki.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "panda people jacket",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/panda-people-jacket.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "pureallow",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/pureallow.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "raidep",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/raidep.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "album",
+      "title": "Rebirth of the MYTH",
+      "project": "s-don ソロ作品",
+      "credit": "",
+      "image": "assets/works/rebirthofthemyth.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Road to Aventura",
+      "project": "SEGA CHUNITHM X-VERSE",
+      "credit": "楽曲制作",
+      "image": "assets/works/road-to-aventura.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "album",
+      "title": "s-don Remix Pack",
+      "project": "s-don ソロ作品",
+      "credit": "",
+      "image": "assets/works/s-remixpack.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "album",
+      "title": "Smashin Time",
+      "project": "s-don ソロ作品",
+      "credit": "",
+      "image": "assets/works/smashintime.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "sparklingdayEP",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/sparklingdayep.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Stairway to Cherry Blossoms",
+      "project": "東方ダンマクカグラ ファンタジア・ロスト",
+      "credit": "楽曲制作",
+      "image": "assets/works/stairwaytocherryblossoms.webp",
+      "url": "",
+      "featured": false,
       "description": ""
     },
     {
       "category": "rhythm",
       "title": "Trrricksters!!",
-      "project": "CHUNITHM",
-      "credit": "楽曲提供",
-      "year": 2024,
-      "image": "",
+      "project": "SEGA CHUNITHM / TAITO GROOVE COASTER / NEOWIZ DJMAX ほか",
+      "credit": "楽曲制作（with 翡乃イスカ）",
+      "image": "assets/works/trrricksters.webp",
       "url": "",
       "featured": true,
+      "description": "",
+      "year": 2024
+    },
+    {
+      "category": "rhythm",
+      "title": "Turndup thumb 1024x1024",
+      "project": "",
+      "credit": "",
+      "image": "assets/works/turndup-thumb-1024x1024.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "Ultrasynergymatrix",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/ultrasynergymatrix.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "Underveil",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/underveil.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "Underveil EXTRA",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/underveilextra.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "Underveil SEQUEL",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/underveilsequel.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "Upshift thumb 1080",
+      "project": "",
+      "credit": "",
+      "image": "assets/works/upshift-thumb-1080.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "vacantEP",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/vacantep.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "vsmorimoriatsushi",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/vsmorimoriatsushi.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "VSpook!",
+      "project": "SEGA maimai でらっくす",
+      "credit": "楽曲制作",
+      "image": "assets/works/vspook.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "works10",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/works10.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "works11",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/works11.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "doujin",
+      "title": "works247",
+      "project": "同人作品",
+      "credit": "",
+      "image": "assets/works/works247.webp",
+      "url": "",
+      "featured": false,
+      "description": ""
+    },
+    {
+      "category": "rhythm",
+      "title": "zephyrlasting",
+      "project": "Arcaea Next Stage",
+      "credit": "楽曲制作（with nitro）",
+      "image": "assets/works/zephyrlasting.webp",
+      "url": "https://www.s-don.com/",
+      "featured": false,
       "description": ""
     },
     {
