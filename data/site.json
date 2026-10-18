@@ -3,11 +3,11 @@
   "role": "Music Producer / DJ",
   "featured": {
     "eyebrow": "LATEST RELEASE",
-    "title": "Self-confrontatioN",
-    "subtitle": "In Falsus 提供曲",
+    "title": "Life is Aventura",
+    "subtitle": "3rd Solo Album · 2026",
     "image": "assets/release.jpg",
-    "youtube": "https://youtu.be/TAAmswbba7s?si=1dBBgzjr5ABkRARI",
-    "description": ""
+    "youtube": "",
+    "description": "色彩豊かなサウンドで、新しい冒険へ。"
   },
   "about": {
     "photo": "assets/sdon-about-avatar.png",
@@ -29,6 +29,18 @@
       "title": "「Life is Aventura」トレーラー公開",
       "image": "assets/video.jpg",
       "url": ""
+    },
+    {
+      "date": "2026-10-18",
+      "title": "サイトリニューアル！",
+      "image": "/assets/uploads/logo-06.png",
+      "url": ""
+    },
+    {
+      "date": "2026-10-12",
+      "title": "【新曲公開】Self-confrontatioN",
+      "image": "/assets/uploads/s-don - Self-confrontatioN.png",
+      "url": "https://www.youtube.com/watch?v=TAAmswbba7s"
     }
   ],
   "listening": [
@@ -71,7 +83,7 @@
       "title": "Malicious Mischance",
       "project": "Arcaea",
       "credit": "楽曲提供",
-      "year": 2025,
+      "year": 2022,
       "image": "",
       "description": "",
       "url": "",
@@ -90,9 +102,9 @@
     },
     {
       "category": "game",
-      "title": "永遠の春夢（Remix）",
+      "title": "Nightmare All Night",
       "project": "東方LostWord",
-      "credit": "リミックス",
+      "credit": "リミックス（原曲：永遠の春夢）",
       "year": 2025,
       "image": "",
       "description": "",
